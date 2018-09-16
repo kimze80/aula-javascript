@@ -68,6 +68,15 @@ Toda operação lógica resulta em um valor booleano, ou seja, `true` ou `false`
 | onkeydown | quando o elemento tem foco e alguma tecla é pressionada|
 | onkeydown | o elemento tem foco e quando alguma tecla é solta após ser pressionada |
 
+### click 
+
+var el = document.getElementById('module')
+    clickerFn = function() {
+    console.log('Click just happened');
+}
+
+el.addEventListener('click', clickerFn);
+
 ### show element
 
 #myDIV {
