@@ -1,0 +1,42 @@
+## Introdução a programação e a Lógica
+
+### O que é um algoritmo
+
+### Receita de bolo?
+
+### Níveis de Abstração
+
+  Linguagem de BAIXO NIVEL (detalhado)
+  Linguagem de ALTO NIVEL (simples)
+
+
+### Compilação x Interpretação
+
+### JAVASCRIPT
+
+### Tipos e Operações
+
+| TIPO    | DESCRIÇÃO  |
+| --------|----------- |
+| number  | valores numéricos, inteiro ou decimal |
+| string  | texto |
+| boolean | verdadeiro ou falso|
+| object  | armazena diversos valores organizados em pares de chave e valor|
+| *array  | armazena diversos valores organizados por posição|
+
+#### Criando arquivos .js
+
+<script src="myscripts.js"></script>
+
+### Conversão de valores
+  Soma de numero + string
+ 
+let idadeString = prompt('Digite sua idade'); //o usuário digitou 11 no popup
+let idade = Number(idadeString); //converte a string em number
+
+let idadeRelativa = idade + 20;
+
+alert(idadeRelativa); //o resultado é 31
+
+### Condicionais
+
